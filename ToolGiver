@@ -1,0 +1,86 @@
+-- Instances:
+
+local ToolGiver = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Give = Instance.new("TextButton")
+
+--Properties:
+
+ToolGiver.Name = "ToolGiver"
+ToolGiver.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ToolGiver.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ToolGiver
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderColor3 = Color3.fromRGB(8, 0, 255)
+Main.BorderSizePixel = 5
+Main.Position = UDim2.new(0.108584031, 0, 0.175632939, 0)
+Main.Size = UDim2.new(0.111518711, 0, 0.12341772, 0)
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, 0.0126582282, 0)
+Title.Size = UDim2.new(1, 0, 0.269230783, 0)
+Title.Font = Enum.Font.Roboto
+Title.Text = "Tool Giver"
+Title.TextColor3 = Color3.fromRGB(24, 8, 250)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Give.Name = "Give"
+Give.Parent = Main
+Give.BackgroundColor3 = Color3.fromRGB(30, 0, 255)
+Give.Position = UDim2.new(0.0412842594, 0, 0.441229701, 0)
+Give.Size = UDim2.new(0.914473712, 0, 0.474358976, 0)
+Give.Font = Enum.Font.Arial
+Give.Text = "Tool Give"
+Give.TextColor3 = Color3.fromRGB(255, 255, 255)
+Give.TextScaled = true
+Give.TextSize = 14.000
+Give.TextWrapped = true
+
+-- Scripts:
+
+local function QULVI_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+	script.Parent.Selectable = true
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Press p to open and close the Gui"})
+	
+	function GiveTool()
+		local player = game.Players.LocalPlayer
+		if player.Character then
+			if player.Character:FindFirstChild("Humanoid") then
+				player.Character.Humanoid.Name = "1"
+			end
+			local l = player.Character["1"]:Clone()
+			l.Parent = player.Character
+			l.Name = "Humanoid"; wait(0.1)
+			player.Character["1"]:Destroy()
+			workspace.CurrentCamera.CameraSubject = player.Character.Humanoid
+			player.Character.Animate.Disabled = true; wait(0.1)
+			player.Character.Animate.Disabled = false
+		end
+	end
+	
+	script.Parent.Give.MouseButton1Up:Connect(function()
+		GiveTool()
+	end)
+	
+	local plr = game.Players.LocalPlayer
+	
+	plr:GetMouse().KeyDown:Connect(function(key)
+		if key == "p" then 
+			script.Parent.Visible = not script.Parent.Visible
+		end
+	end)
+end
+coroutine.wrap(QULVI_fake_script)()
