@@ -8,7 +8,7 @@ local Give = Instance.new("TextButton")
 --Properties:
 
 ToolGiver.Name = "ToolGiver"
-ToolGiver.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ToolGiver.Parent = game.CoreGui
 ToolGiver.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
