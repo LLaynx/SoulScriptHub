@@ -1,0 +1,1179 @@
+-- Instances:
+
+local DeveloperHub = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local ButtonFrame = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local MainButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local PositinButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local GameButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local OutputButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ScriptButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local PositionFrame = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local pos = Instance.new("TextLabel")
+local CharacterPosition = Instance.new("TextLabel")
+local Copy = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local gen = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Tp = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local CharacterTp = Instance.new("TextLabel")
+local TpPositionX = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+local TpPositionY = Instance.new("TextBox")
+local UICorner_15 = Instance.new("UICorner")
+local TpPositionZ = Instance.new("TextBox")
+local UICorner_16 = Instance.new("UICorner")
+local MainFrame = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local PlayerImage = Instance.new("ImageLabel")
+local UICorner_18 = Instance.new("UICorner")
+local UserName = Instance.new("TextLabel")
+local Names = Instance.new("TextLabel")
+local PlrId = Instance.new("TextLabel")
+local Dc = Instance.new("TextLabel")
+local Dcimg = Instance.new("ImageLabel")
+local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
+local Dctxt = Instance.new("TextLabel")
+local Copy_2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local GameFrame = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local Place = Instance.new("TextLabel")
+local PlaceId = Instance.new("TextLabel")
+local CopyPlace = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local RefPlace = Instance.new("ImageButton")
+local UICorner_24 = Instance.new("UICorner")
+local GameId = Instance.new("TextLabel")
+local Game = Instance.new("TextLabel")
+local CopyGame = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local RefGame = Instance.new("ImageButton")
+local UICorner_26 = Instance.new("UICorner")
+local Creator = Instance.new("TextLabel")
+local CreatorId = Instance.new("TextLabel")
+local CopyCreator = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local RefCreator = Instance.new("ImageButton")
+local UICorner_28 = Instance.new("UICorner")
+local Job = Instance.new("TextLabel")
+local JobId = Instance.new("TextLabel")
+local RefJob = Instance.new("ImageButton")
+local UICorner_29 = Instance.new("UICorner")
+local CopyJob = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local OutputFrame = Instance.new("Frame")
+local OutputFrame_2 = Instance.new("Frame")
+local Consol = Instance.new("ScrollingFrame")
+local Cod = Instance.new("TextBox")
+local UICorner_31 = Instance.new("UICorner")
+local Exct = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
+local txt = Instance.new("TextLabel")
+local ScriptFrame = Instance.new("Frame")
+local Spy = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Dex = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local Soul = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Close = Instance.new("ImageButton")
+
+--Properties:
+
+DeveloperHub.Name = "DeveloperHub"
+DeveloperHub.Parent = game.CoreGui
+DeveloperHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = DeveloperHub
+Main.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Main.Position = UDim2.new(0.349450558, 0, 0.296852022, 0)
+Main.Size = UDim2.new(0.301098913, 0, 0.404038519, 0)
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Title.Position = UDim2.new(0, 0, -0.00633178651, 0)
+Title.Size = UDim2.new(0.99757272, 0, 0.0868167132, 0)
+Title.Font = Enum.Font.Roboto
+Title.Text = "SoulScript Developer Hub"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UICorner.Parent = Title
+
+UICorner_2.Parent = Main
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame.Position = UDim2.new(0.0135449152, 0, 0.10747312, 0)
+Frame.Size = UDim2.new(0.229583949, 0, 0.861736357, 0)
+
+UICorner_3.Parent = Frame
+
+ButtonFrame.Name = "ButtonFrame"
+ButtonFrame.Parent = Frame
+ButtonFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ButtonFrame.BackgroundTransparency = 1.000
+ButtonFrame.Position = UDim2.new(-0.00398834329, 0, 0.0257173572, 0)
+ButtonFrame.Size = UDim2.new(1.00241542, 0, 0.970149219, 0)
+
+UICorner_4.Parent = ButtonFrame
+
+MainButton.Name = "MainButton"
+MainButton.Parent = ButtonFrame
+MainButton.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+MainButton.BorderColor3 = Color3.fromRGB(130, 203, 255)
+MainButton.Position = UDim2.new(0.0486763306, 0, 0.00403583376, 0)
+MainButton.Size = UDim2.new(0.902686477, 0, 0.134093553, 0)
+MainButton.Font = Enum.Font.Roboto
+MainButton.Text = "Main"
+MainButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MainButton.TextScaled = true
+MainButton.TextSize = 14.000
+MainButton.TextStrokeColor3 = Color3.fromRGB(13, 216, 238)
+MainButton.TextStrokeTransparency = 0.500
+MainButton.TextWrapped = true
+
+UICorner_5.Parent = MainButton
+
+PositinButton.Name = "PositinButton"
+PositinButton.Parent = ButtonFrame
+PositinButton.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+PositinButton.BorderColor3 = Color3.fromRGB(130, 203, 255)
+PositinButton.Position = UDim2.new(0.0486763306, 0, 0.168779358, 0)
+PositinButton.Size = UDim2.new(0.902686477, 0, 0.134093553, 0)
+PositinButton.Font = Enum.Font.Roboto
+PositinButton.Text = "Position"
+PositinButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PositinButton.TextScaled = true
+PositinButton.TextSize = 14.000
+PositinButton.TextStrokeColor3 = Color3.fromRGB(13, 216, 238)
+PositinButton.TextStrokeTransparency = 0.500
+PositinButton.TextWrapped = true
+
+UICorner_6.Parent = PositinButton
+
+UIListLayout.Parent = ButtonFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 8)
+
+GameButton.Name = "GameButton"
+GameButton.Parent = ButtonFrame
+GameButton.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+GameButton.BorderColor3 = Color3.fromRGB(130, 203, 255)
+GameButton.Position = UDim2.new(0.0486763306, 0, 0.333522797, 0)
+GameButton.Size = UDim2.new(0.902686477, 0, 0.134093553, 0)
+GameButton.Font = Enum.Font.Roboto
+GameButton.Text = "Game"
+GameButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameButton.TextScaled = true
+GameButton.TextSize = 14.000
+GameButton.TextStrokeColor3 = Color3.fromRGB(13, 216, 238)
+GameButton.TextStrokeTransparency = 0.500
+GameButton.TextWrapped = true
+
+UICorner_7.Parent = GameButton
+
+OutputButton.Name = "OutputButton"
+OutputButton.Parent = ButtonFrame
+OutputButton.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+OutputButton.BorderColor3 = Color3.fromRGB(130, 203, 255)
+OutputButton.Position = UDim2.new(0.0486763306, 0, 0.498266399, 0)
+OutputButton.Size = UDim2.new(0.902686477, 0, 0.134093553, 0)
+OutputButton.Font = Enum.Font.Roboto
+OutputButton.Text = "Output"
+OutputButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutputButton.TextScaled = true
+OutputButton.TextSize = 14.000
+OutputButton.TextStrokeColor3 = Color3.fromRGB(13, 216, 238)
+OutputButton.TextStrokeTransparency = 0.500
+OutputButton.TextWrapped = true
+
+UICorner_8.Parent = OutputButton
+
+ScriptButton.Name = "ScriptButton"
+ScriptButton.Parent = ButtonFrame
+ScriptButton.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+ScriptButton.BorderColor3 = Color3.fromRGB(130, 203, 255)
+ScriptButton.Position = UDim2.new(0.0486763306, 0, 0.663009822, 0)
+ScriptButton.Size = UDim2.new(0.902686477, 0, 0.134093553, 0)
+ScriptButton.Font = Enum.Font.Roboto
+ScriptButton.Text = "Script"
+ScriptButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptButton.TextScaled = true
+ScriptButton.TextSize = 14.000
+ScriptButton.TextStrokeColor3 = Color3.fromRGB(13, 216, 238)
+ScriptButton.TextStrokeTransparency = 0.500
+ScriptButton.TextWrapped = true
+
+UICorner_9.Parent = ScriptButton
+
+PositionFrame.Name = "PositionFrame"
+PositionFrame.Parent = Main
+PositionFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+PositionFrame.Position = UDim2.new(0.257351756, 0, 0.10747312, 0)
+PositionFrame.Size = UDim2.new(0.721259296, 0, 0.861736357, 0)
+PositionFrame.Visible = false
+
+UICorner_10.Parent = PositionFrame
+
+pos.Name = "pos"
+pos.Parent = PositionFrame
+pos.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pos.BackgroundTransparency = 1.000
+pos.Position = UDim2.new(0.0777830556, 0, 0.162046209, 0)
+pos.Size = UDim2.new(0.886643589, 0, 0.0671641752, 0)
+pos.Font = Enum.Font.Roboto
+pos.Text = "Nil"
+pos.TextColor3 = Color3.fromRGB(255, 255, 255)
+pos.TextScaled = true
+pos.TextSize = 14.000
+pos.TextWrapped = true
+pos.TextXAlignment = Enum.TextXAlignment.Left
+
+CharacterPosition.Name = "CharacterPosition"
+CharacterPosition.Parent = PositionFrame
+CharacterPosition.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CharacterPosition.BackgroundTransparency = 1.000
+CharacterPosition.Position = UDim2.new(0.225129142, 0, 0.042242121, 0)
+CharacterPosition.Size = UDim2.new(0.550622582, 0, 0.0970149189, 0)
+CharacterPosition.Font = Enum.Font.Roboto
+CharacterPosition.Text = "Character Position"
+CharacterPosition.TextColor3 = Color3.fromRGB(255, 255, 255)
+CharacterPosition.TextScaled = true
+CharacterPosition.TextSize = 14.000
+CharacterPosition.TextWrapped = true
+CharacterPosition.TextXAlignment = Enum.TextXAlignment.Left
+
+Copy.Name = "Copy"
+Copy.Parent = PositionFrame
+Copy.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Copy.Position = UDim2.new(0.512597799, 0, 0.269457072, 0)
+Copy.Size = UDim2.new(0.434850663, 0, 0.0970149189, 0)
+Copy.Font = Enum.Font.Roboto
+Copy.Text = "Copy To Clipboard"
+Copy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Copy.TextScaled = true
+Copy.TextSize = 14.000
+Copy.TextWrapped = true
+
+UICorner_11.Parent = Copy
+
+gen.Name = "gen"
+gen.Parent = PositionFrame
+gen.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+gen.Position = UDim2.new(0.0495678447, 0, 0.269457072, 0)
+gen.Size = UDim2.new(0.434850663, 0, 0.0970149189, 0)
+gen.Font = Enum.Font.Roboto
+gen.Text = "Generate"
+gen.TextColor3 = Color3.fromRGB(255, 255, 255)
+gen.TextScaled = true
+gen.TextSize = 14.000
+gen.TextWrapped = true
+
+UICorner_12.Parent = gen
+
+Tp.Name = "Tp"
+Tp.Parent = PositionFrame
+Tp.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Tp.Position = UDim2.new(0.2806063, 0, 0.794116855, 0)
+Tp.Size = UDim2.new(0.434850663, 0, 0.0970149189, 0)
+Tp.Font = Enum.Font.Roboto
+Tp.Text = "Teleport"
+Tp.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tp.TextScaled = true
+Tp.TextSize = 14.000
+Tp.TextWrapped = true
+
+UICorner_13.Parent = Tp
+
+CharacterTp.Name = "CharacterTp"
+CharacterTp.Parent = PositionFrame
+CharacterTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CharacterTp.BackgroundTransparency = 1.000
+CharacterTp.Position = UDim2.new(0.225129142, 0, 0.492540687, 0)
+CharacterTp.Size = UDim2.new(0.550622582, 0, 0.0970149189, 0)
+CharacterTp.Font = Enum.Font.Roboto
+CharacterTp.Text = "Character Teleport"
+CharacterTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+CharacterTp.TextScaled = true
+CharacterTp.TextSize = 14.000
+CharacterTp.TextWrapped = true
+CharacterTp.TextXAlignment = Enum.TextXAlignment.Left
+
+TpPositionX.Name = "TpPositionX"
+TpPositionX.Parent = PositionFrame
+TpPositionX.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+TpPositionX.Position = UDim2.new(0.0495678447, 0, 0.63713187, 0)
+TpPositionX.Size = UDim2.new(0.225896418, 0, 0.115671642, 0)
+TpPositionX.ClearTextOnFocus = false
+TpPositionX.Font = Enum.Font.Roboto
+TpPositionX.PlaceholderColor3 = Color3.fromRGB(178, 0, 0)
+TpPositionX.PlaceholderText = "X"
+TpPositionX.Text = ""
+TpPositionX.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpPositionX.TextScaled = true
+TpPositionX.TextSize = 14.000
+TpPositionX.TextWrapped = true
+
+UICorner_14.Parent = TpPositionX
+
+TpPositionY.Name = "TpPositionY"
+TpPositionY.Parent = PositionFrame
+TpPositionY.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+TpPositionY.Position = UDim2.new(0.38501507, 0, 0.63713187, 0)
+TpPositionY.Size = UDim2.new(0.225896418, 0, 0.115671642, 0)
+TpPositionY.ClearTextOnFocus = false
+TpPositionY.Font = Enum.Font.Roboto
+TpPositionY.PlaceholderColor3 = Color3.fromRGB(24, 193, 5)
+TpPositionY.PlaceholderText = "Y"
+TpPositionY.Text = ""
+TpPositionY.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpPositionY.TextScaled = true
+TpPositionY.TextSize = 14.000
+TpPositionY.TextWrapped = true
+
+UICorner_15.Parent = TpPositionY
+
+TpPositionZ.Name = "TpPositionZ"
+TpPositionZ.Parent = PositionFrame
+TpPositionZ.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+TpPositionZ.Position = UDim2.new(0.719509423, 0, 0.63713187, 0)
+TpPositionZ.Size = UDim2.new(0.225896418, 0, 0.115671642, 0)
+TpPositionZ.ClearTextOnFocus = false
+TpPositionZ.Font = Enum.Font.Roboto
+TpPositionZ.PlaceholderColor3 = Color3.fromRGB(10, 27, 178)
+TpPositionZ.PlaceholderText = "Z"
+TpPositionZ.Text = ""
+TpPositionZ.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpPositionZ.TextScaled = true
+TpPositionZ.TextSize = 14.000
+TpPositionZ.TextWrapped = true
+
+UICorner_16.Parent = TpPositionZ
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Main
+MainFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+MainFrame.Position = UDim2.new(0.257351756, 0, 0.10747312, 0)
+MainFrame.Size = UDim2.new(0.721259296, 0, 0.861736357, 0)
+
+UICorner_17.Parent = MainFrame
+
+PlayerImage.Name = "PlayerImage"
+PlayerImage.Parent = MainFrame
+PlayerImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerImage.Position = UDim2.new(0.0683779195, 0, 0.0257173572, 0)
+PlayerImage.Size = UDim2.new(0.310607612, 0, 0.406716406, 0)
+PlayerImage.Image = "rbxassetid://6925817108"
+
+UICorner_18.CornerRadius = UDim.new(1, 0)
+UICorner_18.Parent = PlayerImage
+
+UserName.Name = "UserName"
+UserName.Parent = MainFrame
+UserName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UserName.BackgroundTransparency = 1.000
+UserName.Position = UDim2.new(0.441445708, 0, 0.108341046, 0)
+UserName.Size = UDim2.new(0.488501042, 0, 0.0970149189, 0)
+UserName.Font = Enum.Font.Roboto
+UserName.Text = "UserName"
+UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
+UserName.TextScaled = true
+UserName.TextSize = 14.000
+UserName.TextWrapped = true
+UserName.TextXAlignment = Enum.TextXAlignment.Left
+
+Names.Name = "Names"
+Names.Parent = MainFrame
+Names.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Names.BackgroundTransparency = 1.000
+Names.Position = UDim2.new(0.441445708, 0, 0.207489222, 0)
+Names.Size = UDim2.new(0.488501042, 0, 0.0708955228, 0)
+Names.Font = Enum.Font.Roboto
+Names.Text = "Name"
+Names.TextColor3 = Color3.fromRGB(255, 255, 255)
+Names.TextScaled = true
+Names.TextSize = 14.000
+Names.TextWrapped = true
+Names.TextXAlignment = Enum.TextXAlignment.Left
+
+PlrId.Name = "PlrId"
+PlrId.Parent = MainFrame
+PlrId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlrId.BackgroundTransparency = 1.000
+PlrId.Position = UDim2.new(0.441445708, 0, 0.281850576, 0)
+PlrId.Size = UDim2.new(0.488501042, 0, 0.0671641752, 0)
+PlrId.Font = Enum.Font.Roboto
+PlrId.Text = "Player Id"
+PlrId.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrId.TextScaled = true
+PlrId.TextSize = 14.000
+PlrId.TextWrapped = true
+PlrId.TextXAlignment = Enum.TextXAlignment.Left
+
+Dc.Name = "Dc"
+Dc.Parent = MainFrame
+Dc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dc.BackgroundTransparency = 1.000
+Dc.Position = UDim2.new(0.250209242, 0, 0.533852518, 0)
+Dc.Size = UDim2.new(0.457440317, 0, 0.0970149189, 0)
+Dc.Font = Enum.Font.Roboto
+Dc.Text = "Discord Server"
+Dc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dc.TextScaled = true
+Dc.TextSize = 14.000
+Dc.TextWrapped = true
+Dc.TextXAlignment = Enum.TextXAlignment.Left
+
+Dcimg.Name = "Dcimg"
+Dcimg.Parent = MainFrame
+Dcimg.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Dcimg.Position = UDim2.new(0.218859121, 0, 0.690837026, 0)
+Dcimg.Size = UDim2.new(0.186364561, 0, 0.242537305, 0)
+Dcimg.Image = "rbxassetid://12432102381"
+
+UICorner_19.CornerRadius = UDim.new(1, 0)
+UICorner_19.Parent = Dcimg
+
+UICorner_20.CornerRadius = UDim.new(1, 0)
+UICorner_20.Parent = Dcimg
+
+Dctxt.Name = "Dctxt"
+Dctxt.Parent = MainFrame
+Dctxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dctxt.BackgroundTransparency = 1.000
+Dctxt.Position = UDim2.new(0.447715729, 0, 0.690837026, 0)
+Dctxt.Size = UDim2.new(0.333197266, 0, 0.0746268556, 0)
+Dctxt.Font = Enum.Font.Roboto
+Dctxt.Text = "Soul Script"
+Dctxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dctxt.TextScaled = true
+Dctxt.TextSize = 14.000
+Dctxt.TextWrapped = true
+Dctxt.TextXAlignment = Enum.TextXAlignment.Left
+
+Copy_2.Name = "Copy"
+Copy_2.Parent = MainFrame
+Copy_2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Copy_2.Position = UDim2.new(0.447715729, 0, 0.810641289, 0)
+Copy_2.Size = UDim2.new(0.256957203, 0, 0.0970149189, 0)
+Copy_2.Font = Enum.Font.Roboto
+Copy_2.Text = "Copy To Clipboard"
+Copy_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Copy_2.TextScaled = true
+Copy_2.TextSize = 14.000
+Copy_2.TextWrapped = true
+
+UICorner_21.Parent = Copy_2
+
+GameFrame.Name = "GameFrame"
+GameFrame.Parent = Main
+GameFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+GameFrame.Position = UDim2.new(0.257351756, 0, 0.10747312, 0)
+GameFrame.Size = UDim2.new(0.721259296, 0, 0.861736357, 0)
+GameFrame.Visible = false
+
+UICorner_22.Parent = GameFrame
+
+Place.Name = "Place"
+Place.Parent = GameFrame
+Place.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Place.BackgroundTransparency = 1.000
+Place.Position = UDim2.new(0.0432978198, 0, 0.0463733301, 0)
+Place.Size = UDim2.new(0.256957203, 0, 0.0970149189, 0)
+Place.Font = Enum.Font.Roboto
+Place.Text = "PlaceID"
+Place.TextColor3 = Color3.fromRGB(255, 255, 255)
+Place.TextScaled = true
+Place.TextSize = 14.000
+Place.TextWrapped = true
+Place.TextXAlignment = Enum.TextXAlignment.Left
+
+PlaceId.Name = "PlaceId"
+PlaceId.Parent = GameFrame
+PlaceId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlaceId.BackgroundTransparency = 1.000
+PlaceId.Position = UDim2.new(0.0432978198, 0, 0.145521507, 0)
+PlaceId.Size = UDim2.new(0.912056923, 0, 0.0746268556, 0)
+PlaceId.Font = Enum.Font.Roboto
+PlaceId.Text = "Nil"
+PlaceId.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlaceId.TextScaled = true
+PlaceId.TextSize = 14.000
+PlaceId.TextWrapped = true
+PlaceId.TextXAlignment = Enum.TextXAlignment.Left
+
+CopyPlace.Name = "CopyPlace"
+CopyPlace.Parent = GameFrame
+CopyPlace.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+CopyPlace.Position = UDim2.new(0.582521558, 0, 0.0463733301, 0)
+CopyPlace.Size = UDim2.new(0.341668367, 0, 0.0970149189, 0)
+CopyPlace.Font = Enum.Font.Roboto
+CopyPlace.Text = "Copy To Clipboard"
+CopyPlace.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyPlace.TextScaled = true
+CopyPlace.TextSize = 14.000
+CopyPlace.TextWrapped = true
+
+UICorner_23.Parent = CopyPlace
+
+RefPlace.Name = "RefPlace"
+RefPlace.Parent = GameFrame
+RefPlace.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+RefPlace.LayoutOrder = 2
+RefPlace.Position = UDim2.new(0.482201159, 0, 0.0443077274, 0)
+RefPlace.Size = UDim2.new(0.0734163448, 0, 0.0970149189, 0)
+RefPlace.ZIndex = 2
+RefPlace.Image = "rbxassetid://3926307971"
+RefPlace.ImageRectOffset = Vector2.new(404, 84)
+RefPlace.ImageRectSize = Vector2.new(36, 36)
+
+UICorner_24.CornerRadius = UDim.new(1, 0)
+UICorner_24.Parent = RefPlace
+
+GameId.Name = "GameId"
+GameId.Parent = GameFrame
+GameId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameId.BackgroundTransparency = 1.000
+GameId.Position = UDim2.new(0.0432978198, 0, 0.414048284, 0)
+GameId.Size = UDim2.new(0.912056923, 0, 0.0746268556, 0)
+GameId.Font = Enum.Font.Roboto
+GameId.Text = "Nil"
+GameId.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameId.TextScaled = true
+GameId.TextSize = 14.000
+GameId.TextWrapped = true
+GameId.TextXAlignment = Enum.TextXAlignment.Left
+
+Game.Name = "Game"
+Game.Parent = GameFrame
+Game.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Game.BackgroundTransparency = 1.000
+Game.Position = UDim2.new(0.0432978198, 0, 0.298375249, 0)
+Game.Size = UDim2.new(0.256957203, 0, 0.0970149189, 0)
+Game.Font = Enum.Font.Roboto
+Game.Text = "GameID"
+Game.TextColor3 = Color3.fromRGB(255, 255, 255)
+Game.TextScaled = true
+Game.TextSize = 14.000
+Game.TextWrapped = true
+Game.TextXAlignment = Enum.TextXAlignment.Left
+
+CopyGame.Name = "CopyGame"
+CopyGame.Parent = GameFrame
+CopyGame.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+CopyGame.Position = UDim2.new(0.582521558, 0, 0.298375249, 0)
+CopyGame.Size = UDim2.new(0.341668367, 0, 0.0970149189, 0)
+CopyGame.Font = Enum.Font.Roboto
+CopyGame.Text = "Copy To Clipboard"
+CopyGame.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyGame.TextScaled = true
+CopyGame.TextSize = 14.000
+CopyGame.TextWrapped = true
+
+UICorner_25.Parent = CopyGame
+
+RefGame.Name = "RefGame"
+RefGame.Parent = GameFrame
+RefGame.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+RefGame.LayoutOrder = 2
+RefGame.Position = UDim2.new(0.482201159, 0, 0.29630965, 0)
+RefGame.Size = UDim2.new(0.0734163448, 0, 0.0970149189, 0)
+RefGame.ZIndex = 2
+RefGame.Image = "rbxassetid://3926307971"
+RefGame.ImageRectOffset = Vector2.new(404, 84)
+RefGame.ImageRectSize = Vector2.new(36, 36)
+
+UICorner_26.CornerRadius = UDim.new(1, 0)
+UICorner_26.Parent = RefGame
+
+Creator.Name = "Creator"
+Creator.Parent = GameFrame
+Creator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creator.BackgroundTransparency = 1.000
+Creator.Position = UDim2.new(0.0432978198, 0, 0.546245992, 0)
+Creator.Size = UDim2.new(0.256957203, 0, 0.0970149189, 0)
+Creator.Font = Enum.Font.Roboto
+Creator.Text = "CreatorID"
+Creator.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creator.TextScaled = true
+Creator.TextSize = 14.000
+Creator.TextWrapped = true
+Creator.TextXAlignment = Enum.TextXAlignment.Left
+
+CreatorId.Name = "CreatorId"
+CreatorId.Parent = GameFrame
+CreatorId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreatorId.BackgroundTransparency = 1.000
+CreatorId.Position = UDim2.new(0.0432978198, 0, 0.645394146, 0)
+CreatorId.Size = UDim2.new(0.912056923, 0, 0.0746268556, 0)
+CreatorId.Font = Enum.Font.Roboto
+CreatorId.Text = "Nil"
+CreatorId.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreatorId.TextScaled = true
+CreatorId.TextSize = 14.000
+CreatorId.TextWrapped = true
+CreatorId.TextXAlignment = Enum.TextXAlignment.Left
+
+CopyCreator.Name = "CopyCreator"
+CopyCreator.Parent = GameFrame
+CopyCreator.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+CopyCreator.Position = UDim2.new(0.582521558, 0, 0.546245992, 0)
+CopyCreator.Size = UDim2.new(0.341668367, 0, 0.0970149189, 0)
+CopyCreator.Font = Enum.Font.Roboto
+CopyCreator.Text = "Copy To Clipboard"
+CopyCreator.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyCreator.TextScaled = true
+CopyCreator.TextSize = 14.000
+CopyCreator.TextWrapped = true
+
+UICorner_27.Parent = CopyCreator
+
+RefCreator.Name = "RefCreator"
+RefCreator.Parent = GameFrame
+RefCreator.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+RefCreator.LayoutOrder = 2
+RefCreator.Position = UDim2.new(0.482201159, 0, 0.544180095, 0)
+RefCreator.Size = UDim2.new(0.0734163448, 0, 0.0970149189, 0)
+RefCreator.ZIndex = 2
+RefCreator.Image = "rbxassetid://3926307971"
+RefCreator.ImageRectOffset = Vector2.new(404, 84)
+RefCreator.ImageRectSize = Vector2.new(36, 36)
+
+UICorner_28.CornerRadius = UDim.new(1, 0)
+UICorner_28.Parent = RefCreator
+
+Job.Name = "Job"
+Job.Parent = GameFrame
+Job.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Job.BackgroundTransparency = 1.000
+Job.Position = UDim2.new(0.0432978198, 0, 0.78172338, 0)
+Job.Size = UDim2.new(0.256957203, 0, 0.0970149189, 0)
+Job.Font = Enum.Font.Roboto
+Job.Text = "JobID"
+Job.TextColor3 = Color3.fromRGB(255, 255, 255)
+Job.TextScaled = true
+Job.TextSize = 14.000
+Job.TextWrapped = true
+Job.TextXAlignment = Enum.TextXAlignment.Left
+
+JobId.Name = "JobId"
+JobId.Parent = GameFrame
+JobId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JobId.BackgroundTransparency = 1.000
+JobId.Position = UDim2.new(0.0432978198, 0, 0.880871236, 0)
+JobId.Size = UDim2.new(0.912056923, 0, 0.0746268556, 0)
+JobId.Font = Enum.Font.Roboto
+JobId.Text = "Nil"
+JobId.TextColor3 = Color3.fromRGB(255, 255, 255)
+JobId.TextScaled = true
+JobId.TextSize = 14.000
+JobId.TextWrapped = true
+JobId.TextXAlignment = Enum.TextXAlignment.Left
+
+RefJob.Name = "RefJob"
+RefJob.Parent = GameFrame
+RefJob.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+RefJob.LayoutOrder = 2
+RefJob.Position = UDim2.new(0.482201159, 0, 0.779657602, 0)
+RefJob.Size = UDim2.new(0.0734163448, 0, 0.0970149189, 0)
+RefJob.ZIndex = 2
+RefJob.Image = "rbxassetid://3926307971"
+RefJob.ImageRectOffset = Vector2.new(404, 84)
+RefJob.ImageRectSize = Vector2.new(36, 36)
+
+UICorner_29.CornerRadius = UDim.new(1, 0)
+UICorner_29.Parent = RefJob
+
+CopyJob.Name = "CopyJob"
+CopyJob.Parent = GameFrame
+CopyJob.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+CopyJob.Position = UDim2.new(0.582521558, 0, 0.78172338, 0)
+CopyJob.Size = UDim2.new(0.341668367, 0, 0.0970149189, 0)
+CopyJob.Font = Enum.Font.Roboto
+CopyJob.Text = "Copy To Clipboard"
+CopyJob.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyJob.TextScaled = true
+CopyJob.TextSize = 14.000
+CopyJob.TextWrapped = true
+
+UICorner_30.Parent = CopyJob
+
+OutputFrame.Name = "OutputFrame"
+OutputFrame.Parent = Main
+OutputFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+OutputFrame.Position = UDim2.new(0.257351756, 0, 0.10747312, 0)
+OutputFrame.Size = UDim2.new(0.721259296, 0, 0.861736357, 0)
+OutputFrame.Visible = false
+
+OutputFrame_2.Name = "OutputFrame"
+OutputFrame_2.Parent = OutputFrame
+OutputFrame_2.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+OutputFrame_2.BackgroundTransparency = 0.300
+OutputFrame_2.Position = UDim2.new(0.00911544915, 0, 0.0253647454, 0)
+OutputFrame_2.Size = UDim2.new(0.985473216, 0, 0.828358173, 0)
+
+Consol.Name = "Consol"
+Consol.Parent = OutputFrame_2
+Consol.Active = true
+Consol.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Consol.BackgroundTransparency = 1.000
+Consol.Position = UDim2.new(1.27449848e-05, 0, 0.0047282367, 0)
+Consol.Size = UDim2.new(1.00003493, 0, 0.996123493, 0)
+
+Cod.Name = "Cod"
+Cod.Parent = OutputFrame_2
+Cod.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Cod.Position = UDim2.new(1.27449848e-05, 0, 1.03226125, 0)
+Cod.Size = UDim2.new(0.776531398, 0, 0.130124241, 0)
+Cod.ClearTextOnFocus = false
+Cod.Font = Enum.Font.Roboto
+Cod.PlaceholderText = "print(\"Hello world!\")"
+Cod.Text = ""
+Cod.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cod.TextScaled = true
+Cod.TextSize = 14.000
+Cod.TextWrapped = true
+Cod.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_31.Parent = Cod
+
+Exct.Name = "Exct"
+Exct.Parent = OutputFrame_2
+Exct.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Exct.Position = UDim2.new(0.806660175, 0, 1.03807127, 0)
+Exct.Size = UDim2.new(0.191983774, 0, 0.116663106, 0)
+Exct.Font = Enum.Font.Roboto
+Exct.Text = "Execute"
+Exct.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exct.TextScaled = true
+Exct.TextSize = 14.000
+Exct.TextWrapped = true
+
+UICorner_32.Parent = Exct
+
+UICorner_33.Parent = OutputFrame_2
+
+txt.Name = "txt"
+txt.Parent = OutputFrame_2
+txt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+txt.BackgroundTransparency = 1.000
+txt.Position = UDim2.new(0.220635325, 0, 0.0047282367, 0)
+txt.Size = UDim2.new(0.573085845, 0, 0.224352136, 0)
+txt.Visible = false
+txt.Font = Enum.Font.Roboto
+txt.Text = ""
+txt.TextColor3 = Color3.fromRGB(0, 0, 0)
+txt.TextSize = 14.000
+txt.TextWrapped = true
+txt.TextXAlignment = Enum.TextXAlignment.Left
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = Main
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ScriptFrame.Position = UDim2.new(0.257351756, 0, 0.10747312, 0)
+ScriptFrame.Size = UDim2.new(0.721259296, 0, 0.861736357, 0)
+ScriptFrame.Visible = false
+
+Spy.Name = "Spy"
+Spy.Parent = ScriptFrame
+Spy.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Spy.Position = UDim2.new(0.15049459, 0, 0.117141433, 0)
+Spy.Size = UDim2.new(0.703102648, 0, 0.138059691, 0)
+Spy.Font = Enum.Font.Roboto
+Spy.Text = "SimpleSpy"
+Spy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Spy.TextScaled = true
+Spy.TextSize = 14.000
+Spy.TextWrapped = true
+
+UICorner_34.Parent = Spy
+
+Dex.Name = "Dex"
+Dex.Parent = ScriptFrame
+Dex.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Dex.Position = UDim2.new(0.15049459, 0, 0.292514622, 0)
+Dex.Size = UDim2.new(0.703102648, 0, 0.138059691, 0)
+Dex.Font = Enum.Font.Roboto
+Dex.Text = "Dex Explorer"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextScaled = true
+Dex.TextSize = 14.000
+Dex.TextWrapped = true
+
+UICorner_35.Parent = Dex
+
+Admin.Name = "Admin"
+Admin.Parent = ScriptFrame
+Admin.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Admin.Position = UDim2.new(0.15049459, 0, 0.47535044, 0)
+Admin.Size = UDim2.new(0.703102648, 0, 0.138059691, 0)
+Admin.Font = Enum.Font.Roboto
+Admin.Text = "Infinity Yield"
+Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin.TextScaled = true
+Admin.TextSize = 14.000
+Admin.TextWrapped = true
+
+UICorner_36.Parent = Admin
+
+Soul.Name = "Soul"
+Soul.Parent = ScriptFrame
+Soul.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Soul.Position = UDim2.new(0.15049459, 0, 0.650723636, 0)
+Soul.Size = UDim2.new(0.703102648, 0, 0.138059691, 0)
+Soul.Font = Enum.Font.Roboto
+Soul.Text = "SoulScript"
+Soul.TextColor3 = Color3.fromRGB(255, 255, 255)
+Soul.TextScaled = true
+Soul.TextSize = 14.000
+Soul.TextWrapped = true
+
+UICorner_37.Parent = Soul
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundTransparency = 1.000
+Close.LayoutOrder = 19
+Close.Position = UDim2.new(0.928084612, 0, -0.00126819778, 0)
+Close.Size = UDim2.new(0.0487332009, 0, 0.0783231482, 0)
+Close.ZIndex = 2
+Close.Image = "rbxassetid://3926305904"
+Close.ImageColor3 = Color3.fromRGB(1, 255, 39)
+Close.ImageRectOffset = Vector2.new(404, 284)
+Close.ImageRectSize = Vector2.new(36, 36)
+
+-- Scripts:
+
+local function IZHXRTK_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	MainButton = script.Parent.ButtonFrame.MainButton
+	PositionButton = script.Parent.ButtonFrame.PositinButton
+	GameButton = script.Parent.ButtonFrame.GameButton
+	OutputButton = script.Parent.ButtonFrame.OutputButton
+	ScriptButton = script.Parent.ButtonFrame.ScriptButton
+		
+	Frames = script.Parent.Parent
+	
+	MainButton.MouseButton1Up:Connect(function()
+		Frames.MainFrame.Visible = true
+		Frames.PositionFrame.Visible = false
+		Frames.GameFrame.Visible = false
+		Frames.OutputFrame.Visible = false
+		Frames.ScriptFrame.Visible = false
+	end)
+	
+	PositionButton.MouseButton1Up:Connect(function()
+		Frames.MainFrame.Visible = false
+		Frames.PositionFrame.Visible = true
+		Frames.GameFrame.Visible = false
+		Frames.OutputFrame.Visible = false
+		Frames.ScriptFrame.Visible = false
+	end)
+	
+	GameButton.MouseButton1Up:Connect(function()
+		Frames.MainFrame.Visible = false
+		Frames.PositionFrame.Visible = false
+		Frames.GameFrame.Visible = true
+		Frames.OutputFrame.Visible = false
+		Frames.ScriptFrame.Visible = false
+	end)
+	
+	OutputButton.MouseButton1Up:Connect(function()
+		Frames.MainFrame.Visible = false
+		Frames.PositionFrame.Visible = false
+		Frames.GameFrame.Visible = false
+		Frames.OutputFrame.Visible = true
+		Frames.ScriptFrame.Visible = false
+	end)
+	
+	ScriptButton.MouseButton1Up:Connect(function()
+		Frames.MainFrame.Visible = false
+		Frames.PositionFrame.Visible = false
+		Frames.GameFrame.Visible = false
+		Frames.OutputFrame.Visible = false
+		Frames.ScriptFrame.Visible = true
+	end)
+end
+coroutine.wrap(IZHXRTK_fake_script)()
+local function TVSHNS_fake_script() -- PositionFrame.LocalScript 
+	local script = Instance.new('LocalScript', PositionFrame)
+
+	--Character Position
+	
+	Posittion = script.Parent.pos
+	Generate = script.Parent.gen
+	Copy = script.Parent.Copy
+	
+	Generate.MouseButton1Up:Connect(function()
+		Posittion.Text = tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+	end)
+	
+	Copy.MouseButton1Up:Connect(function()
+		setclipboard(Posittion.Text)
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Copied!"})
+	end)
+	
+	--Character Teleport
+	
+	TpButton = script.Parent.Tp
+	TpTextBoxX = script.Parent.TpPositionX
+	TpTextBoxY = script.Parent.TpPositionY
+	TpTextBoxZ = script.Parent.TpPositionZ
+	
+	TpButton.MouseButton1Up:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(TpTextBoxX.Text, TpTextBoxY.Text, TpTextBoxZ.Text)
+	end)
+	
+end
+coroutine.wrap(TVSHNS_fake_script)()
+local function HYFRSBX_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	Frame = script.Parent
+	
+	PlrImg = Frame.PlayerImage
+	UserName = Frame.UserName
+	Name = Frame.Names
+	Copy = Frame.Copy
+	PlrId = Frame.PlrId
+	
+	local UserId = game.Players.LocalPlayer.UserId
+	local thumtype = Enum.ThumbnailType.AvatarBust
+	local thumsize = Enum.ThumbnailSize.Size420x420
+	local content = game.Players:GetUserThumbnailAsync(UserId, thumtype, thumsize)
+	
+	PlrImg.Image = content
+	Name.Text = game.Players.LocalPlayer.Name
+	UserName.Text = game.Players.LocalPlayer.DisplayName
+	PlrId.Text = UserId
+	
+	Copy.MouseButton1Up:Connect(function()
+		setclipboard("https://discord.gg/aSxrWzeBj8")
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Copied!"})
+	end)
+	
+	
+end
+coroutine.wrap(HYFRSBX_fake_script)()
+local function KRVGQCO_fake_script() -- GameFrame.LocalScript 
+	local script = Instance.new('LocalScript', GameFrame)
+
+	--PlaceId
+	
+	PlaceId = script.Parent.PlaceId
+	RefleshPlace = script.Parent.RefPlace
+	CopyPlace = script.Parent.CopyPlace
+	
+	PlaceId.Text = game.PlaceId
+	
+	RefleshPlace.MouseButton1Up:Connect(function()
+		PlaceId.Text = "."
+		wait(0.5)
+		PlaceId.Text = ".."
+		wait(0.5)
+		PlaceId.Text = "..."
+		wait(0.5)
+		PlaceId.Text = game.PlaceId
+	end)
+	
+	CopyPlace.MouseButton1Up:Connect(function()
+		setclipboard(PlaceId.Text)
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Copied!"})
+	end)
+	
+	--GameId
+	
+	GameId = script.Parent.GameId
+	RefleshGame = script.Parent.RefGame
+	CopyGame = script.Parent.CopyGame
+	
+	GameId.Text = game.GameId
+	
+	RefleshGame.MouseButton1Up:Connect(function()
+		GameId.Text = "."
+		wait(0.5)
+		GameId.Text = ".."
+		wait(0.5)
+		GameId.Text = "..."
+		wait(0.5)
+		GameId.Text = game.GameId
+	end)
+	
+	CopyGame.MouseButton1Up:Connect(function()
+		setclipboard(GameId.Text)
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Copied!"})
+	end)
+	
+	--CreatorId
+	
+	CreatorId = script.Parent.CreatorId
+	RefleshCreator = script.Parent.RefCreator
+	CopyCreator = script.Parent.CopyCreator
+	
+	CreatorId.Text = game.CreatorId
+	
+	RefleshCreator.MouseButton1Up:Connect(function()
+		CreatorId.Text = "."
+		wait(0.5)
+		CreatorId.Text = ".."
+		wait(0.5)
+		CreatorId.Text = "..."
+		wait(0.5)
+		CreatorId.Text = game.CreatorId
+	end)
+	
+	CopyCreator.MouseButton1Up:Connect(function()
+		setclipboard(CreatorId.Text)
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Copied!"})
+	end)
+	
+	--JobId
+	
+	JobId = script.Parent.JobId
+	RefleshJob = script.Parent.RefJob
+	CopyJob = script.Parent.CopyJob
+	
+	JobId.Text = game.JobId
+	
+	RefleshJob.MouseButton1Up:Connect(function()
+		JobId.Text = "."
+		wait(0.5)
+		JobId.Text = ".."
+		wait(0.5)
+		JobId.Text = "..."
+		wait(0.5)
+		JobId.Text = game.JobId
+	end)
+	
+	CopyJob.MouseButton1Up:Connect(function()
+		setclipboard(JobId.Text)
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Copied!"})
+	end)
+	
+	
+end
+coroutine.wrap(KRVGQCO_fake_script)()
+local function VYSOOP_fake_script() -- OutputFrame_2.OutputScript 
+	local script = Instance.new('LocalScript', OutputFrame_2)
+
+	local colors = {
+		[Enum.MessageType.MessageOutput] = BrickColor.new("White").Color;
+		[Enum.MessageType.MessageInfo] = BrickColor.new("Bright blue").Color;
+		[Enum.MessageType.MessageWarning] =	BrickColor.new("Bright yellow").Color;
+		[Enum.MessageType.MessageError]	 = BrickColor.new("Bright red").Color;
+	}
+	local canvasX = 0
+	
+	repeat wait() until script.Parent:FindFirstChild'txt'
+	
+	local CreateLogOutput = function(output, messageType)
+		local newLine = script.Parent.txt:clone()
+		if messageType==nil then messageType=Enum.MessageType.MessageOutput end
+		newLine.TextColor3 = colors[messageType]
+		newLine.Position = UDim2.new(0, 5, 0, (#script.Parent.Consol:getChildren() * 15))
+		newLine.Text = output
+		newLine.Visible = true
+		newLine.TextSize = 16
+		newLine.Name = tick()
+		newLine.Parent = script.Parent.Consol
+		newLine.Size = UDim2.new(0, (#output * 10), 0, 15)
+		canvasX = (canvasX > (#output * 10) and canvasX or (#output * 10))
+		script.Parent.Consol.CanvasSize = UDim2.new(0, (canvasX + 10), 0, ((#script.Parent.Consol:getChildren() + 1) * 15))
+	end
+	game:getService("LogService").MessageOut:connect(function(output, messageType)CreateLogOutput(output, messageType) end)
+	local x = game:GetService('LogService'):GetLogHistory()
+	local z={}
+	CreateLogOutput('Ouput Loaded',Enum.MessageType.MessageInfo)
+	wait(1)
+	CreateLogOutput('This Developer Console is made by SoulScript',Enum.MessageType.MessageInfo)
+	for _,k in pairs(z) do
+		CreateLogOutput(k[1])
+	end
+	
+end
+coroutine.wrap(VYSOOP_fake_script)()
+local function VZQU_fake_script() -- OutputFrame_2.LocalScript 
+	local script = Instance.new('LocalScript', OutputFrame_2)
+
+	Cod = script.Parent.Cod
+	Execute = script.Parent.Exct
+	
+	Execute.MouseButton1Up:Connect(function()
+		assert(loadstring(Cod.Text))()
+	end)
+end
+coroutine.wrap(VZQU_fake_script)()
+local function CRRHAZ_fake_script() -- ScriptFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScriptFrame)
+
+	Spy = script.Parent.Spy
+	Dex = script.Parent.Dex
+	Admin = script.Parent.Admin
+	Soul = script.Parent.Soul
+	
+	Spy.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LLaynx/SoulScriptHub/main/SimpleSpy"))()
+	end)
+	
+	Dex.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/peyton2465/Dex/master/out.lua"))()
+	end)
+	
+	Admin.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+	
+	Soul.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet(""))()
+	end)
+end
+coroutine.wrap(CRRHAZ_fake_script)()
+local function UZND_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+	script.Parent.Selectable = true
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Press p to open and close the Gui"})
+	
+	local plr = game.Players.LocalPlayer
+	
+	plr:GetMouse().KeyDown:Connect(function(key)
+		if key == "p" then 
+			script.Parent.Visible = not script.Parent.Visible
+		end
+	end)
+	
+	script.Parent.Close.MouseButton1Up:Connect(function()
+		script.Parent.Visible = false
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Soul Script", Text = "Press p to open the Gui"})
+	end)
+end
+coroutine.wrap(UZND_fake_script)()
